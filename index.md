@@ -1,7 +1,7 @@
 ---
 layout: page
-title: PMIx
-tagline: PMI-exascale
+title: PMI-Exascale
+tagline:
 ---
 {% include JB/setup %}
 
