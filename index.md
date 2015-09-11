@@ -31,11 +31,13 @@ This provides an overview of the project:
 <div align="center">
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/g2GcY4dHJc83CN" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rcastain/exascale-process-management-interface" title="Exascale Process Management Interface" target="_blank">Exascale Process Management Interface</a> </strong> from <strong><a href="//www.slideshare.net/rcastain" target="_blank">rcastain</a></strong>
 </div>
+</div>
 
 The following presentation includes some of the motivation behind PMIx.
 
 <div align="center">
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/46z5El9n7kE7Zy" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rcastain/hpc-controls-future" title="HPC Controls Future" target="_blank">HPC Controls Future</a> </strong> from <strong><a href="//www.slideshare.net/rcastain" target="_blank">rcastain</a></strong>
+</div>
 </div>
 
 
