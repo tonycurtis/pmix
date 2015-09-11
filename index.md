@@ -11,25 +11,36 @@ PMI Exascale (PMIx) represents an attempt to resolve these questions by providin
 
 The charter of the PMIx community is to:
 
-> Develop an open source, independent (i.e., not affiliated with any specific programming model code base) library to support applications.
+> Develop an open source (non-copy-left licensed) and independent (i.e., not affiliated with any specific programming model code base) standalone library to support application interactions with Resource Managers (RMs)
 
+> Retain transparent compatibility with the existing PMI-1 and PMI-2 definitions, and any future PMI releases
 
+> Support the _Instant On_ initiative for rapid startup of applications at exascale and beyond
 
-PMIx is designed to .
+> Work with the HPC community to define and implement new APIs that support evolving programming model requirements for application-RM interactions.
+
+PMIx is designed to be particularly easy for resource managers to adopt, thus facilitating a rapid uptake into that community for application portability. Both client and server libraries are included, along with reference examples of client usage and server-side integration. A list of supported environments and versions is provided [here](environments.md) - please check regularly as the list is changing!
 
 PMIx targets support for the Linux operating system.  A reasonable effort is made to support all major, modern Linux distributions; however, validation is limited to the most recent 2-3 releases of RedHat Enterprise Linux (RHEL), Fedora, CentOS, and SUSE Linux Enterprise Server (SLES). Support for vendor-specific operating systems is included as provided by the vendor.
 
 Overview of PMIx
 =====================
 
-The following presentation describes some of the motivation for PMIx.
+This provides an overview of the project:
 
 <div align="center">
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/46z5El9n7kE7Zy" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rcastain/hpc-controls-future" title="HPC Controls Future" target="_blank">HPC Controls Future</a> </strong> from <strong><a href="//www.slideshare.net/rcastain" target="_blank">rcastain</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/g2GcY4dHJc83CN" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rcastain/exascale-process-management-interface" title="Exascale Process Management Interface" target="_blank">Exascale Process Management Interface</a> </strong> from <strong><a href="//www.slideshare.net/rcastain" target="_blank">rcastain</a></strong>
+</div>
+
+The following presentation includes some of the motivation behind PMIx.
+
+<div align="center">
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/46z5El9n7kE7Zy" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rcastain/hpc-controls-future" title="HPC Controls Future" target="_blank">HPC Controls Future</a> </strong> from <strong><a href="//www.slideshare.net/rcastain" target="_blank">rcastain</a></strong>
+</div>
 
 
 How do I get involved?
-======================
+=====================
 
 First, read the documentation:
 
