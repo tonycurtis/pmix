@@ -8,7 +8,6 @@ tagline:
 Current resource managers and releases:
 
 SLURM
-<img style="float: right;" src="slurm.tiff"/>
 =====================
 TBD
 
