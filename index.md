@@ -48,14 +48,15 @@ First, read the documentation:
 
 * [Man pages for current head of development](master/man/)
 
-A set of Linux man pages have been carefully written to specify the PMIx API.  Read through these man pages to get a sense of it.  A [set of example applications](https://github.com/ofiwg/fabtests) have been developed to highlight how an application might use various aspects of PMIx.
+A set of man pages are being written to specify the PMIx API. In addition, a [set of example applications](https://github.com/open-mpi/pmix/tree/master/examples) have been developed to highlight how an application might use various aspects of PMIx.
 
 Second, download the latest release or the master:
 
-* The libfabric library itself (including documentation): [libfabric-1.1.0.tar.bz2](http://downloads.openfabrics.org/downloads/ofi/libfabric-1.1.0.tar.bz2) (or [see all prior releases](http://downloads.openfabrics.org/downloads/ofi/))
-* Examples and unit tests: [fabtests-1.1.0.tar.bz2](http://downloads.openfabrics.org/downloads/ofi/fabtests-1.1.0.tar.bz2) (or [see all prior releases](http://downloads.openfabrics.org/downloads/ofi/))
+* The PMIx library itself (including documentation):
+    [PMIx 1.0.0](http://www.open-mpi.org/software/pmix/v1.0/)
+    [Nightly](http://www.open-mpi.org/software/pmix/nightly/master/)
 
-The bulk of the libfabric code base is being developed in [the main OFIWG libfabric GitHub repository](https://github.com/ofiwg/libfabric).
+The PMIx code base is being developed in [the PMIx GitHub repository](https://github.com/open-mpi/pmix).
 
 Third: [become part of the conversation](http://www.open-mpi.org/community/lists/pmix-devel/)
 

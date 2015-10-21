@@ -5,10 +5,11 @@ tagline:
 ---
 {% include JB/setup %}
 
-Current resource managers and releases:
+Resource managers that plan to include PMIx support in upcoming releases:
 
 SLURM
-=====================
-TBD
+Moab
+LSF
+ORCM
 
 
