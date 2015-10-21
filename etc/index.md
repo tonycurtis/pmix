@@ -7,9 +7,9 @@ tagline:
 
 Resource managers that plan to include PMIx support in upcoming releases:
 
-SLURM
-Moab
-LSF
-ORCM
+* SLURM
+* Moab
+* LSF
+* ORCM
 
 
