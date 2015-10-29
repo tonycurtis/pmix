@@ -50,7 +50,7 @@ First, read the documentation. A set of man pages are being written to specify t
 Second, download the latest release or the master:
 
 * The PMIx library itself (including documentation):
-    * [PMIx 1.0.0](https://github.com/pmix/tarballs/blob/master/pmix-1.0.0.tar.bz2)
+    * [PMIx 1.0.0 (preview release)](https://raw.githubusercontent.com/pmix/tarballs/master/pmix-1.0.0.tar.bz2)
     * [Nightly](http://www.open-mpi.org/software/pmix/nightly/master/)
 
 * The PMIx code base is being developed in [the PMIx GitHub repository](https://github.com/pmix/master).
