@@ -45,18 +45,18 @@ First, read the documentation. A set of man pages are being written to specify t
 
 * [Man pages for current head of development](master/man/)
 
- In addition, a [set of example applications](https://github.com/pmix/tree/master/examples) have been developed to highlight how an application might use various aspects of PMIx.
+ In addition, a [set of example applications](https://github.com/pmix/master/tree/master/examples) have been developed to highlight how an application might use various aspects of PMIx.
 
 Second, download the latest release or the master:
 
 * The PMIx library itself (including documentation):
-    * [PMIx 1.0.0](https://github.com/pmix/tree/tarballs/master/pmix-1.0.0.tar.bz2)
+    * [PMIx 1.0.0](https://github.com/pmix/tarballs/blob/master/pmix-1.0.0.tar.bz2)
     * [Nightly](http://www.open-mpi.org/software/pmix/nightly/master/)
 
 * The PMIx code base is being developed in [the PMIx GitHub repository](https://github.com/pmix/master).
 
-Third: [become part of the conversation](http://www.open-mpi.org/community/lists/pmix-devel/)
+Third: [become part of the conversation](https://groups.google.com/forum/#!forum/pmix)
 
-[Join the PMIx mailing lists](http://www.open-mpi.org/community/lists/pmix.php).  Notices of the every-Tuesday PMIx Webexes are sent on the devel list; anyone can join the calls to listen and participate in the design of PMIx.
+Notices of the every-Tuesday PMIx Webexes are sent on the devel list; anyone can join the calls to listen and participate in the design of PMIx.
 
 Although PMIx targets Linux as its primary operating system, portability for non-Linux platforms is provided as a convenience to our development community.  Currently, PMIx has been ported to OS X.
