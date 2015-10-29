@@ -91,7 +91,7 @@ a PMIx errno is returned.
 
 # ERRORS
 
-PMIx errno values are defined in `pmix_common.h`.
+PMIx errno values are defined in [`PMIx_Constants`(7)](pmix_constants.7.html).
 
 # NOTES
 

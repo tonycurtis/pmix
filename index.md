@@ -45,15 +45,15 @@ First, read the documentation. A set of man pages are being written to specify t
 
 * [Man pages for current head of development](master/man/)
 
- In addition, a [set of example applications](https://github.com/open-mpi/pmix/tree/master/examples) have been developed to highlight how an application might use various aspects of PMIx.
+ In addition, a [set of example applications](https://github.com/pmix/tree/master/examples) have been developed to highlight how an application might use various aspects of PMIx.
 
 Second, download the latest release or the master:
 
 * The PMIx library itself (including documentation):
-    * [PMIx 1.0.0](http://www.open-mpi.org/software/pmix/v1.0/)
+    * [PMIx 1.0.0](https://github.com/pmix/tree/tarballs/master/pmix-1.0.0.tar.bz2)
     * [Nightly](http://www.open-mpi.org/software/pmix/nightly/master/)
 
-* The PMIx code base is being developed in [the PMIx GitHub repository](https://github.com/open-mpi/pmix).
+* The PMIx code base is being developed in [the PMIx GitHub repository](https://github.com/pmix/master).
 
 Third: [become part of the conversation](http://www.open-mpi.org/community/lists/pmix-devel/)
 
