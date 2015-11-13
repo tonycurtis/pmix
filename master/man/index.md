@@ -8,7 +8,7 @@ tagline: v1.1.0 release
 # Man pages
 
 These man pages are from [PMIx 
-v1.1.0](http://www.open-mpi.org/software/pmix/v1.0/).
+v1.1.0](http://www.open-mpi.org/software/pmix/v1.1/).
 
 * General information
   * [pmix(7)](pmix.7.html)

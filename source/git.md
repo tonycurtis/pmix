@@ -28,23 +28,15 @@ release).
 
 Clone either the master or releases repository.  For example (as of Nov 2015), to clone the main development repository via HTTPS:
 
-```
+```shell
 shell$ git clone https://github.com/pmix/master.git
-
 Cloning into 'master'...
-
 remote: Counting objects: 5319, done.
-
 remote: Compressing objects: 100% (27/27), done.
-
 remote: Total 5319 (delta 5), reused 0 (delta 0), pack-reused 5291
-
 Receiving objects: 100% (5319/5319), 2.03 MiB | 600.00 KiB/s, done.
-
 Resolving deltas: 100% (3958/3958), done.
-
 Checking connectivity... done.
-
 shell$
 ```
 
