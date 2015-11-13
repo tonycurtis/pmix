@@ -5,7 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 
-After obtaining a successful [Git clone](source/git), the
+After obtaining a successful [Git clone](git), the
 following tools are required for developers to compile PMIx from
 its repository sources (users who download PMIx tarballs *do
 not* need these tools - they are _only_ required for
@@ -25,7 +25,7 @@ nightly PMIx tarballs.  Other versions may work, but these are the
 versions that we _know_ work.
 
 | PMIx Release  | M4 Version | Autoconf Version | Automake Version | Libtool Version | Flex Version |
-|:-------------:|:-----------:|:----------------:|:----------------:|:----------------:|:------------:|
+| :-------------: | :-----------: | :----------------: | :----------------: | :----------------: | :------------: |
 | v1.0 | 1.4.17 | 2.69 | 1.15 | 2.4.6 | 2.5.35 |
 | v1.1 | 1.4.17 | 2.69 | 1.15 | 2.4.6 | 2.5.35 |
 | master | 1.4.17 | 2.69 | 1.15 | 2.4.6 | 2.5.35 |

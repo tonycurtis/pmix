@@ -30,13 +30,21 @@ Clone either the master or releases repository.  For example (as of Nov 2015), t
 
 ```
 shell$ git clone https://github.com/pmix/master.git
+
 Cloning into 'master'...
+
 remote: Counting objects: 5319, done.
+
 remote: Compressing objects: 100% (27/27), done.
+
 remote: Total 5319 (delta 5), reused 0 (delta 0), pack-reused 5291
+
 Receiving objects: 100% (5319/5319), 2.03 MiB | 600.00 KiB/s, done.
+
 Resolving deltas: 100% (3958/3958), done.
+
 Checking connectivity... done.
+
 shell$
 ```
 
@@ -45,7 +53,7 @@ nice summary of recent activity and allows navigating into individual
 commits.
 
 Once you have successfully cloned the repository,
-continue on to the [building](source/building) instructions on how to build
+continue on to the [building](building) instructions on how to build
 from a developer checkout.
 
 Note that Git is natively capable of using many forms of web
