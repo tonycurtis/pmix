@@ -11,14 +11,14 @@ its repository sources (users who download PMIx tarballs *do
 not* need these tools - they are _only_ required for
 developers working on the internals of PMIx itself):
 
-| Software Package | Notes | URL |
-|:-----------------|:------|:----|
-| Git client       | Version 1.8.0 or above | [http://git-scm.org/](http://git-scm.org/) |
-| GNU m4           | See version chart below | [ftp://ftp.gnu.org/gnu/m4](ftp://ftp.gnu.org/gnu/m4) |
-| GNU autoconf     | See version chart below | [ftp://ftp.gnu.org/gnu/autoconf](ftp://ftp.gnu.org/gnu/autoconf) |
-| GNU automake     | See version chart below | [ftp://ftp.gnu.org/gnu/automake](ftp://ftp.gnu.org/gnu/automake) |
-| GNU libtool      | See version chart below | [ftp://ftp.gnu.org/gnu/libtool](ftp://ftp.gnu.org/gnu/libtool) |
-| Flex             | See version chart below | [ftp://ftp.gnu.org/non-gnu/flex](ftp://ftp.gnu.org/non-gnu/flex) |
+Software Package | Notes | URL 
+:-----------------|:------|:----
+ Git client       | Version 1.8.0 or above | [http://git-scm.org/](http://git-scm.org/) 
+ GNU m4           | See version chart below | [ftp://ftp.gnu.org/gnu/m4](ftp://ftp.gnu.org/gnu/m4) 
+ GNU autoconf     | See version chart below | [ftp://ftp.gnu.org/gnu/autoconf](ftp://ftp.gnu.org/gnu/autoconf) 
+ GNU automake     | See version chart below | [ftp://ftp.gnu.org/gnu/automake](ftp://ftp.gnu.org/gnu/automake) 
+ GNU libtool      | See version chart below | [ftp://ftp.gnu.org/gnu/libtool](ftp://ftp.gnu.org/gnu/libtool) 
+ Flex             | See version chart below | [ftp://ftp.gnu.org/non-gnu/flex](ftp://ftp.gnu.org/non-gnu/flex) 
 
 The following table lists the versions that are used to make
 nightly PMIx tarballs.  Other versions may work, but these are the
