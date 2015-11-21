@@ -32,6 +32,12 @@ This provides an overview of the project:
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/g2GcY4dHJc83CN" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rcastain/exascale-process-management-interface" title="Exascale Process Management Interface" target="_blank">Exascale Process Management Interface</a> </strong> from <strong><a href="//www.slideshare.net/rcastain" target="_blank">rcastain</a></strong></div>
 </div>
 
+PMIx was the subject of a Birds-of-a-Feather meeting at the Supercomputing 2015 Conference:
+
+<div align="center">
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/ivPvVvhZxwLtIT" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rcastain/sc15-pmix-birdsofafeather" title="SC15 PMIx Birds-of-a-Feather" target="_blank">SC15 PMIx Birds-of-a-Feather</a> </strong> from <strong><a href="//www.slideshare.net/rcastain" target="_blank">rcastain</a></strong> </div>
+</div>
+
 The following presentation includes some of the motivation behind PMIx.
 
 <div align="center">
