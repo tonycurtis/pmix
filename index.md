@@ -66,6 +66,8 @@ Second, download the latest release or the master:
 
 Third: [become part of the conversation](https://groups.google.com/forum/#!forum/pmix)
 
+Contribute to the definition of the APIs by taking the [survey on malleable and evolving applications.](https://docs.google.com/forms/d/1bixKsm1379NH3Unp77vqIiE47GNnJcwKBaMSdNUew5s/viewform?ts=562fdbb7&edit_requested=true)
+
 Notices of the every-Tuesday PMIx Webexes are sent on the devel list; anyone can join the calls to listen and participate in the design of PMIx.
 
 Although PMIx targets Linux as its primary operating system, portability for non-Linux platforms is provided as a convenience to our development community.  Currently, PMIx has been ported to OS X.
