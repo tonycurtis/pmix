@@ -56,10 +56,7 @@ First, read the documentation. A set of man pages are being written to specify t
 Second, download the latest release or the master:
 
 * The PMIx library itself (including documentation):
-    * PMIx 1.1.1 (production release)
-        * [pmix-1.1.1.tar.bz2](https://raw.githubusercontent.com/pmix/tarballs/master/pmix-1.1.1.tar.bz2)
-        * [pmix-1.1.1.tar.gz](https://raw.githubusercontent.com/pmix/tarballs/master/pmix-1.1.1.tar.gz)
-        * [pmix-1.1.1-1.src.rpm](https://raw.githubusercontent.com/pmix/tarballs/master/pmix-1.1.1-1.src.rpm)
+    * [Production releases](downloads)
     * [Nightly](http://www.open-mpi.org/software/pmix/nightly/master/)
 
 * The PMIx code base is being developed in [the PMIx GitHub repository](https://github.com/pmix/master).
