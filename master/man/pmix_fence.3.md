@@ -28,21 +28,26 @@ pmix_status_t PMIx_Fence_nb(const pmix_proc_t procs[], size_t nprocs,
 # ARGUMENTS
 
 *procs*
-: An array of pmix_proc_t structures defining the processes that will be
-participating in the fence collective operation.
+: An array of pmix_proc_t structures defining the processes to be aborted. A _NULL_
+for the proc array indicates that all processes in the caller's
+nspace are to be aborted. A wildcard value for the rank in any structure indicates
+that all processes in that nspace are to be aborted.
 
 *nprocs*
 : Number of pmix_proc_t structures in the _procs_ array
 
 *info*
-: An optional array of pmix_info_t structures
+: An array of pmix_proc_t structures defining the processes to be aborted. A _NULL_
+for the proc array indicates that all processes in the caller's
+nspace are to be aborted. A wildcard value for the rank in any structure indicates
+that all processes in that nspace are to be aborted.
 
 *ninfo*
-: Number of pmix_info_t structures in the pmix_info_t array
+: Number of pmix_info_t structures in the _info_w array
 
 # DESCRIPTION
 
-Execute a blocking[non-blocking] barrier across the processes identified in the
+Execute a blocking barrier across the processes identified in the
 specified array. Passing a _NULL_ pointer as the _procs_ parameter
 indicates that the barrier is to span all processes in the client's
 namespace. Each provided pmix_proc_t struct can pass PMIX_RANK_WILDCARD to
@@ -64,19 +69,14 @@ operation. This can include:
     is to _not_ collect the data.
 
 (b) PMIX_COLLECTIVE_ALGO - a comma-delimited string indicating the algos
-    to be used for executing the barrier, in priority order. Note that
-    PMIx itself does not contain any internode communication support. Thus,
-    execution of the _fence_ collective is deferred to the host resource
-    manager, which are free to implement whatever algorithms they choose.
-    Thus, different resource managers may or may not be able to comply with
-    a request for a specific algorithm, or set of algorithms. Marking this
-    info key as _required_ instructs the host RM that it should return
-    an error if none of the specified algos are available. Otherwise, the RM
-    is to use one of the specified algos if possible, but is free
-    to use any of its available methods to execute the operation if none of
-    the specified algos are available.
+    to be used for executing the barrier, in priority order.
 
-(c) PMIX_TIMEOUT - maximum time for the fence to execute before declaring
+(c) PMIX_COLLECTIVE_ALGO_REQD - instructs the host RM that it should return
+    an error if none of the specified algos are available. Otherwise, the RM
+    is to use one of the algos if possible, but is otherwise free to use any
+    of its available methods to execute the operation.
+
+(d) PMIX_TIMEOUT - maximum time for the fence to execute before declaring
     an error. By default, the RM shall terminate the operation and notify participants
     if one or more of the indicated procs fails during the fence. However,
     the timeout parameter can help avoid "hangs" due to programming errors

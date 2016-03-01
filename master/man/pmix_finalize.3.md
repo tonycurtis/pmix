@@ -23,7 +23,7 @@ pmix_status_t PMIx_Finalize(void);
 
 # DESCRIPTION
 
-Finalize the PMIx client, closing the connection with the local PMIx server and releasing all malloc'd memory.
+Finalize the PMIx client, closing the connection with the local PMIx server.
 
 # RETURN VALUE
 
