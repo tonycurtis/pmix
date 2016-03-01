@@ -26,18 +26,18 @@ pmix_status_t PMIx_Init(pmix_scope_t scope, const char key[], pmix_value_t *val)
     * PMI_LOCAL - the data is intended only for other application
                   processes on the same node. Data marked in this way
                   will not be included in data packages sent to remote requestors
-    * PMI_REMOTE - the data is intended solely for applications processes on
+    * PMI_REMOTE - the data is intended solely for application processes on
                    remote nodes. Data marked in this way will not be shared with
                    other processes on the same node
     * PMI_GLOBAL - the data is to be shared with all other requesting processes,
                    regardless of location
 
 *key*
-String key identifying the information. This can be either one of the PMIx defined
+: String key identifying the information. This can be either one of the PMIx defined
 attributes, or a user-defined value
 
 *val*
-Pointer to a pmix_value_t structure containing the data to be pushed along with the type
+: Pointer to a pmix_value_t structure containing the data to be pushed along with the type
 of the provided data.
 
 # DESCRIPTION
