@@ -26,23 +26,17 @@ PMIx targets support for the Linux operating system.  A reasonable effort is mad
 Overview of PMIx
 =====================
 
-This provides an overview of the project:
+The following publications (with accompanying citation info) may help provide some background on PMIx and a perspective on its role in future HPC resource management:
 
-<div align="center">
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/g2GcY4dHJc83CN" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rcastain/exascale-process-management-interface" title="Exascale Process Management Interface" target="_blank">Exascale Process Management Interface</a> </strong> from <strong><a href="//www.slideshare.net/rcastain" target="_blank">rcastain</a></strong></div>
-</div>
+* PMIx Birds-of-a-Feather at SC'15 [pdf](https://github.com/pmix/publications/blob/master/PMIx-BoF-SC15.pdf) [ppt](https://github.com/pmix/publications/blob/master/PMIx-BoF-SC15.pptx)
+    * **Charting the PMIx Roadmap.** Ralph H Castain, Joshua Ladd, David Solt, and Gary Brown. Presented at _Birds-of-a-Feather Meeting, Supercomputing 2015_, November 2015.
 
-PMIx was the subject of a Birds-of-a-Feather meeting at the Supercomputing 2015 Conference:
+* Exascale Process Management Interface (SLURM User's Group 2015) [pdf](https://github.com/pmix/publications/blob/master/slug2015.pdf) [ppt](https://github.com/pmix/publications/blob/master/slug2015.pptx)
+    * **Exascale Process Management Interface.** Ralph H Castain, Joshua Ladd, Artem Polyakov, David Bigagli, and Gary Brown. Presented at _SLURM User's Group Meeting_, Sept 2015, Washington DC
 
-<div align="center">
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/ivPvVvhZxwLtIT" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rcastain/sc15-pmix-birdsofafeather" title="SC15 PMIx Birds-of-a-Feather" target="_blank">SC15 PMIx Birds-of-a-Feather</a> </strong> from <strong><a href="//www.slideshare.net/rcastain" target="_blank">rcastain</a></strong> </div>
-</div>
+* HPC Resource Management: View to the Future [pdf](https://github.com/pmix/publications/blob/master/RMFutures.pdf) [ppt](https://github.com/pmix/publications/blob/master/RMFutures.pptx)
+    * **HPC Resource Management: View to the Future.** Ralph H Castain. Presented at _Open MPI Developer's Meeting_, June 2015, Dallas TX
 
-The following presentation includes some of the motivation behind PMIx.
-
-<div align="center">
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/yZAyst7GlEBQbD" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rcastain/hpc-controls-future-54243156" title="HPC Controls Future" target="_blank">HPC Controls Future</a> </strong> from <strong><a href="//www.slideshare.net/rcastain" target="_blank">rcastain</a></strong> </div>
-</div>
 
 How do I get involved?
 =====================
