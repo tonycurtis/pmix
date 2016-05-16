@@ -28,6 +28,9 @@ Overview of PMIx
 
 The following publications (with accompanying citation info) may help provide some background on PMIx and a perspective on its role in future HPC resource management:
 
+* PMIx State-of-the-Union at SIAM'16 [[pdf]](https://github.com/pmix/publications/blob/master/PMIx-SoU-Mar2016.pdf) [[ppt]](https://github.com/pmix/publications/blob/master/PMIx-SoU-Mar2016.pptx)
+    * **Process Management Interface-Exascale** David Solt and Ralph H Castain, Presented at SIAM'16, April 12-18 2016
+
 * PMIx Birds-of-a-Feather at SC'15 [[pdf]](https://github.com/pmix/publications/blob/master/PMIx-BoF-SC15.pdf) [[ppt]](https://github.com/pmix/publications/blob/master/PMIx-BoF-SC15.pptx)
     * **Charting the PMIx Roadmap.** Ralph H Castain, Joshua Ladd, David Solt, and Gary Brown. Presented at _Birds-of-a-Feather Meeting, Supercomputing 2015_, November 2015.
 
