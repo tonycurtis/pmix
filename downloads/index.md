@@ -5,16 +5,20 @@ tagline: Downloads
 ---
 {% include JB/setup %}
 
-Version 1.1.4(rc3)
+Version 1.1.4
 ==============
-[pmix-1.1.4rc3.tar.bz2](https://raw.githubusercontent.com/pmix/tarballs/master/pmix-1.1.4rc3.tar.bz2)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Size: 566KB&nbsp;&nbsp;&nbsp;Date: Jun 1, 2016<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MD5:&nbsp;&nbsp;d2716e4633992142eda477ada17afad9<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHA1:&nbsp;6f42dba7246ddbbe8fa424959a855e11a5d2539c<br>
-[pmix-1.1.4rc3.tar.gz](https://raw.githubusercontent.com/pmix/tarballs/master/pmix-1.1.4rc3.tar.gz)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Size: 722KB&nbsp;&nbsp;&nbsp;Date: Jun 1, 2016<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MD5:&nbsp;&nbsp;be153401c8091989e5a6ebba2eb22e3f<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHA1:&nbsp;9c15e254a13e8575374cac723423d0ab6c72a814<br>
+[pmix-1.1.4.tar.bz2](https://raw.githubusercontent.com/pmix/tarballs/master/pmix-1.1.4.tar.bz2)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Size: 573KB&nbsp;&nbsp;&nbsp;Date: Jun 7, 2016<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MD5:&nbsp;&nbsp;05846e84c1e6410f4e2a69834a570add<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHA1:&nbsp;ea23a3946747455e4ef977dee1fc60435bc24db5<br>
+[pmix-1.1.4.tar.gz](https://raw.githubusercontent.com/pmix/tarballs/master/pmix-1.1.4.tar.gz)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Size: 722KB&nbsp;&nbsp;&nbsp;Date: Jun 7, 2016<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MD5:&nbsp;&nbsp;12caa58926cdd11f0e550312349750c0<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHA1:&nbsp;d06fa3c86d34ac1956de089804465aa0816bfd18<br>
+[pmix-1.1.4-1.src.rpm](https://raw.githubusercontent.com/pmix/tarballs/master/pmix-1.1.4-1.src.rpm)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Size: 592KB&nbsp;&nbsp;&nbsp;Date: Jun 7, 2016<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MD5:&nbsp;&nbsp;99e3aa8866c5908e730873ea731b698d<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHA1:&nbsp;fbf4423ac1e869ccc6267a1f42c4433d06746214<br>
 
 Version 1.1.3
 ==============
