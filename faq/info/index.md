@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FAQ: General information
+title: General information
 tagline: 
 ---
 {% include JB/setup %}
