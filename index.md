@@ -55,11 +55,11 @@ How do I get involved?
 
 1. Read the documentation. The [header](https://github.com/pmix/master/tree/master/include) files contain the "official" definition of the standard, and the comments in them are intended to provide explanation and guidance. In addition, a set of man pages are being written to describe their implementation in the convenience library (not much is there just yet, but we are working on it):
 
-  * [Man pages for current head of development](master/man/index.md)
+  * [Man pages for current head of development](man)
 
  In addition, a [set of example applications](https://github.com/pmix/master/tree/master/examples) have been developed to highlight how an application might use various aspects of PMIx.
 
-1. Scan the [FAQs](faq/index.md).
+1. Scan the [FAQs](faq).
 
 1. Download the latest release or the master:
 
