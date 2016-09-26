@@ -5,7 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 
-##### 1. What environments include PMIx support?
+### 1. What environments include PMIx support?
 
 The following systems currently support PMIx:
 
@@ -14,7 +14,7 @@ The following systems currently support PMIx:
 
 This list will be updated as vendors release their support
 
-##### 2. What environments plan to include PMIx support?
+### 2. What environments plan to include PMIx support?
 
 Resource managers that have indicated plans to include PMIx support in upcoming releases include:
 
@@ -22,7 +22,7 @@ Resource managers that have indicated plans to include PMIx support in upcoming 
 * Adaptive Solutions
 * Altair
 
-##### 3. What do I do if my vendor hasn't yet released PMIx support?
+### 3. What do I do if my vendor hasn't yet released PMIx support?
 
 The PMIx community has a prototype PMIx reference server that will soon be released to help with the transition period. Users on systems that do not yet support PMIx can, if they choose, launch the reference server across their allocated nodes. The server will establish a network of PMIx daemons (one per node) that will provide support for launch, wireup, event notification, and all other PMIx services. More details will be provided as the server becomes generally available.
 

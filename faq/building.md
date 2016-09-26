@@ -5,7 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 
-##### 1. What do I need in order to build the PMIx convenience library?
+### 1. What do I need in order to build the PMIx convenience library?
 
   The following tools are required for developers to compile PMIx from its repository sources (users who download PMIx tarballs do not need these tools - they are only required for developers working on the internals of PMIx itself):
 
@@ -39,7 +39,7 @@ tagline:
   provide "lex", but this is _not_ sufficient -- flex is
   required.
 
-##### 2. How do I build the PMIx convenience library?
+### 2. How do I build the PMIx convenience library?
 
   If you have obtained a developer's checkout from Git, you need to start by running the _autogen.pl_ command. This does not require any options, but will discover available plugins and generate the necessary configure support.
 

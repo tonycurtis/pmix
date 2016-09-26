@@ -11,15 +11,15 @@ PMI Exascale (PMIx) represents an attempt to resolve these questions by providin
 
 The charter of the PMIx community is to:
 
-* Define a set of agnostic APIs (not affiliated with any specific programming model code base) to support interactions between application processes and the system management software stack (SMS)
+> Define a set of agnostic APIs (not affiliated with any specific programming model code base) to support interactions between application processes and the system management software stack (SMS)
 
-* Develop an open source (non-copy-left licensed) standalone "convenience" library to facilitate adoption of the PMIx standard
+> Develop an open source (non-copy-left licensed) standalone "convenience" library to facilitate adoption of the PMIx standard
 
-* Retain transparent backward compatibility with the existing PMI-1 and PMI-2 definitions, any future PMI releases, and across all PMIx versions
+> Retain transparent backward compatibility with the existing PMI-1 and PMI-2 definitions, any future PMI releases, and across all PMIx versions
 
-* Support the _Instant On_ initiative for rapid startup of applications at exascale and beyond
+> Support the _Instant On_ initiative for rapid startup of applications at exascale and beyond
 
-* Work with the HPC community to define and implement new APIs that support evolving programming model requirements for application-RM interactions.
+> Work with the HPC community to define and implement new APIs that support evolving programming model requirements for application-RM interactions.
 
 Note that the definition of the PMIx standard is not contingent upon use of the convenience library. Any implementation that supports the defined APIs is perfectly acceptable, and some environments have chosen to pursue that route. The convenience library is provided solely for the following purposes:
 
