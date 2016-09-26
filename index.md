@@ -13,11 +13,15 @@ The charter of the PMIx community is to:
 
 > Define a set of agnostic APIs (not affiliated with any specific programming model code base) to support interactions between application processes and the system management software stack (SMS)
 >
+>
 > Develop an open source (non-copy-left licensed) standalone "convenience" library to facilitate adoption of the PMIx standard
+>
 >
 > Retain transparent backward compatibility with the existing PMI-1 and PMI-2 definitions, any future PMI releases, and across all PMIx versions
 >
+>
 > Support the _Instant On_ initiative for rapid startup of applications at exascale and beyond
+>
 >
 > Work with the HPC community to define and implement new APIs that support evolving programming model requirements for application-RM interactions.
 
