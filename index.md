@@ -9,27 +9,26 @@ The Process Management Interface (PMI) has been used for quite some time as a me
 
 PMI Exascale (PMIx) represents an attempt to resolve these questions by providing an extended version of the PMI definitions specifically designed to support clusters up to and including exascale sizes. The overall objective of the project is not to branch the existing definitions - in fact, PMIx fully supports both of the existing PMI-1 and PMI-2 APIs - but rather to (a) augment and extend those APIs to eliminate some current restrictions that impact scalability, (b) establish a standards-like body for maintaining the definitions, and (c) provide a reference implementation of the PMI-server that demonstrates the desired level of scalability.
 
+Charter
+=====================
+
 The charter of the PMIx community is to:
 
-> Define a set of agnostic APIs (not affiliated with any specific programming model code base) to support interactions between application processes and the system management software stack (SMS)
->
->
-> Develop an open source (non-copy-left licensed) standalone "convenience" library to facilitate adoption of the PMIx standard
->
->
-> Retain transparent backward compatibility with the existing PMI-1 and PMI-2 definitions, any future PMI releases, and across all PMIx versions
->
->
-> Support the _Instant On_ initiative for rapid startup of applications at exascale and beyond
->
->
-> Work with the HPC community to define and implement new APIs that support evolving programming model requirements for application-RM interactions.
+* __Define__ a set of agnostic APIs (not affiliated with any specific programming model code base) to support interactions between application processes and the system management software stack (SMS)
+
+* __Develop__ an open source (non-copy-left licensed) standalone "convenience" library to facilitate adoption of the PMIx standard
+
+* __Retain__ transparent backward compatibility with the existing PMI-1 and PMI-2 definitions, any future PMI releases, and across all PMIx versions
+
+* __Support__ the _Instant On_ initiative for rapid startup of applications at exascale and beyond
+
+* __Work__ with the HPC community to define and implement new APIs that support evolving programming model requirements for application-RM interactions.
 
 Note that the definition of the PMIx standard is not contingent upon use of the convenience library. Any implementation that supports the defined APIs is perfectly acceptable, and some environments have chosen to pursue that route. The convenience library is provided solely for the following purposes:
 
-* validation of the standard. No proposed change and/or extension to the standard is accepted without an accompanying prototype implementation in the convenience library. This ensures that the proposal has undergone at least some minimal level of scrutiny and testing before being considered.
+* Validation of the standard. No proposed change and/or extension to the standard is accepted without an accompanying prototype implementation in the convenience library. This ensures that the proposal has undergone at least some minimal level of scrutiny and testing before being considered.
 
-* ease of adoption. The PMIx convenience library is designed to be particularly easy for resource managers (and the SMS in general) to adopt, thus facilitating a rapid uptake into that community for application portability. Both client and server libraries are included, along with reference examples of client usage and server-side integration. A list of supported environments and versions is provided [here](etc) - please check regularly as the list is changing!
+* Ease of adoption. The PMIx convenience library is designed to be particularly easy for resource managers (and the SMS in general) to adopt, thus facilitating a rapid uptake into that community for application portability. Both client and server libraries are included, along with reference examples of client usage and server-side integration. A list of supported environments and versions is provided [here](etc) - please check regularly as the list is changing!
 
 The convenience library targets support for the Linux operating system.  A reasonable effort is made to support all major, modern Linux distributions; however, validation is limited to the most recent 2-3 releases of RedHat Enterprise Linux (RHEL), Fedora, CentOS, and SUSE Linux Enterprise Server (SLES). In addition, development support is maintained for Mac OSX. Production support for vendor-specific operating systems is included as provided by the vendor.
 
