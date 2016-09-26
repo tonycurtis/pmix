@@ -13,9 +13,11 @@ tagline:
     * [Why isn't PMIx part of the MPI Forum or another standards body?](info#5-why-isnt-pmix-part-of-the-mpi-forum-or-another-standards-body)
     * [How stable/mature is the PMIx standard definition?](info#6-how-stablemature-is-the-pmix-standard-definition)
 
+
 2. [Building the PMIx convenience library](building)
     * [What do I need in order to build the PMIx convenience library?](building#1-what-do-i-need-in-order-to-build-the-pmix-convenience-library)
     * [How do I build the PMIx convenience library?](building#2-how-do-i-build-the-pmix-convenience-library)
+
 
 3. [Supported environments](supported-environments)
     * [What environments include PMIx support?](supported-environments#1-what-environments-include-pmix-support)
