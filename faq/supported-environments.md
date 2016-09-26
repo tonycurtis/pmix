@@ -10,7 +10,6 @@ tagline:
 The following systems currently support PMIx:
 
 * SLURM: starting in release 16.05 with PMIx v1.1.5
-* Fujitsu:
 
 This list will be updated as vendors release their support
 
@@ -21,6 +20,7 @@ Resource managers that have indicated plans to include PMIx support in upcoming 
 * IBM
 * Adaptive Solutions
 * Altair
+* Fujitsu
 
 ### 3. What do I do if my vendor hasn't yet released PMIx support?
 
