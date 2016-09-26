@@ -5,7 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 
-##### 1. What is PMIx?
+## 1. What is PMIx?
 
 PMIx consists of the following:
 
@@ -13,14 +13,14 @@ PMIx consists of the following:
 * a convenience library that resource managers can use to provide PMIx services
 * a community dedicated to defining and maintaining the PMIx standard
 
-##### 2. What is the objective of PMIx?
+## 2. What is the objective of PMIx?
 
 PMIx is focused on creating a standardized set of APIs for interactions between applications and the system management software stack (SMS) that:
 
 * enables portability of applications across environments. SMS providers are free to return "not supported" on any request, but the API itself must at least be present and consistent with the PMIx definition
 * shifts the point of competition between SMS providers from the API definitions to the breadth and quality of their backend support
 
-##### 3. What is the history of the PMIx project?
+## 3. What is the history of the PMIx project?
 
 PMIx has its roots in launch performance studies done on the RoadRunner system at Los Alamos National Laboratory in the mid-2000s. Several key results were uncovered by that work:
 
@@ -42,11 +42,11 @@ However, during the course of working on Instant-On, it became apparent that add
 
 Therefore, the PMIx project agreed to expand its scope from Instant-On to cover the general application-SMS interface. The project now provides standardized interfaces for a variety of query and request operations, including notification of system events, requests for allocations and queue status, and logging of data for retrieval by tools.
 
-##### 4. Is the PMIx project a specific implementation, or a standard?
+## 4. Is the PMIx project a specific implementation, or a standard?
 
   PMIx is a set of standardized APIs, expressed as C-based header files. In addition, the PMIx community provides a convenience library to ease and encourage widespread support for the standard. System providers are welcome to use the library, but there is no requirement that anyone do so. Indeed, some providers have already stated their intention to provide their own implementation of the standard for various reasons.
 
-##### 5. Why isn't PMIx part of the MPI Forum or another standards body?
+## 5. Why isn't PMIx part of the MPI Forum or another standards body?
 
 The [MPI Forum](http://mpi-forum.org/) is the forum governing the Message Passing Interface (MPI). It deals specifically with standardizing interfaces for the MPI programming model. While PMIx is used to support startup of an MPI implementation, it does not itself have any knowledge or understanding of MPI - e.g., PMIx has no concept of a "communicator", which is a core element of MPI.
 
@@ -68,7 +68,7 @@ The PMIx community would prefer to be covered via some standards process as a me
 
 Attributes included in the PMIx definition (as provided in the "pmix_common.h" header) can be added without RFC since SMS providers are not required to support them. Proposed additions are discussed during one or more of the developer teleconferences prior to adoption.
 
-##### 6. How stable/mature is the PMIx standard definition?
+## 6. How stable/mature is the PMIx standard definition?
   
 The PMIx community has committed to providing a stable and portable set of API definitions. Accordingly, the community avoids as much as possible changes to existing APIs, and each API is defined to provide maximum flexibility. The v1.0 definitions were considered an "early offering" intended solely to generate initial feedback - thus, these APIs were subject to adjustment based on response from early adopters.
 
