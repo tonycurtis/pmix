@@ -37,6 +37,9 @@ Overview of PMIx
 
 The following publications (with accompanying citation info) may help provide some background on PMIx and a perspective on its role in future HPC resource management:
 
+* PMIx Birds-of-a-Feather at SC'16 [[pdf]](https://github.com/pmix/publications/blob/master/PMIxBoF-2016.pdf) [[ppt]](https://github.com/pmix/publications/blob/master/PMIxBoF-2016.pptx)
+    * **Charting the PMIx Roadmap.** Ralph H Castain, David Solt, and Artem Polyakov. Presented at _Birds-of-a-Feather Meeting, Supercomputing 2016_, November 2016.
+
 * PMIx: Scalable Debugger Support [[pdf]](https://github.com/pmix/publications/blob/master/PMIxDebugger.pdf) [[ppt]](https://github.com/pmix/publications/blob/master/PMIxDebugger.pptx)
     * Ralph H. Castain, Presented to MPI Forum Debugger Working Group, July 28, 2016
 
