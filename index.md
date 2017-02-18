@@ -7,7 +7,7 @@ tagline:
 
 The Process Management Interface (PMI) has been used for quite some time as a means of exchanging wireup information needed for interprocess communication. Two versions (PMI-1 and PMI-2) have been released as part of the MPICH effort. While PMI-2 demonstrates better scaling properties than its PMI-1 predecessor, attaining rapid launch and wireup of the roughly 1M processes executing across 100k nodes expected for exascale operations remains challenging.
 
-PMI Exascale (PMIx) represents an attempt to resolve these questions by providing an extended version of the PMI definitions specifically designed to support clusters up to and including exascale sizes. The overall objective of the project is not to branch the existing definitions - in fact, PMIx fully supports both of the existing PMI-1 and PMI-2 APIs - but rather to (a) augment and extend those APIs to eliminate some current restrictions that impact scalability, (b) establish a standards-like body for maintaining the definitions, and (c) provide a reference implementation of the PMI-server that demonstrates the desired level of scalability.
+PMI Exascale (PMIx) represents an attempt to resolve these questions by providing an extended version of the PMI definitions specifically designed to support clusters up to and including exascale sizes. The overall objective of the project is not to branch the existing definitions - in fact, PMIx fully supports both of the existing PMI-1 and PMI-2 APIs - but rather to (a) augment and extend those APIs to eliminate some current restrictions that impact scalability, (b) establish a standards-like body for maintaining the definitions, and (c) provide a reference implementation of the PMIx standard that demonstrates the desired level of scalability.
 
 Charter
 =====================
@@ -36,6 +36,9 @@ Overview of PMIx
 =====================
 
 The following publications (with accompanying citation info) may help provide some background on PMIx and a perspective on its role in future HPC resource management:
+
+* PMIx: Storage Integration [[pdf]](https://github.com/pmix/publications/blob/master/PMIx-TieredStorage.pdf) [[ppt]](https://github.com/pmix/publications/blob/master/PMIx-TieredStorage.pptx)
+    * **PMIx: Storage Integration** Ralph H Castain. Presented at _DOE Tiered Storage Working Group meeting_, Feb 2017.
 
 * PMIx Birds-of-a-Feather at SC'16 [[pdf]](https://github.com/pmix/publications/blob/master/PMIxBoF-2016.pdf) [[ppt]](https://github.com/pmix/publications/blob/master/PMIxBoF-2016.pptx)
     * **Charting the PMIx Roadmap.** Ralph H Castain, David Solt, and Artem Polyakov. Presented at _Birds-of-a-Feather Meeting, Supercomputing 2016_, November 2016.
