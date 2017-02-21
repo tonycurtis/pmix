@@ -5,6 +5,17 @@ tagline: Downloads
 ---
 {% include JB/setup %}
 
+Version 1.2.1
+==============
+[pmix-1.2.1.tar.bz2](https://raw.githubusercontent.com/pmix/tarballs/master/pmix-1.2.1.tar.bz2)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Size: 575KB&nbsp;&nbsp;&nbsp;Date: Feb. 21, 2017<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MD5:&nbsp;&nbsp;f090f524681c52001ea2db3b0285596f<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHA1:&nbsp;74761bc760c0e6fc98a79cce62bc1f9e01023c15<br>
+[pmix-1.2.1.tar.gz](https://raw.githubusercontent.com/pmix/tarballs/master/pmix-1.2.1.tar.gz)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Size: 725KB&nbsp;&nbsp;&nbsp;Date: Feb. 21, 2017<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MD5:&nbsp;&nbsp;6ab39d023c667cf29add6dc8d82057f4<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHA1:&nbsp;c29ecd281f502e0670fb6e43add58dd296b5da27<br>
+
 Version 1.2.0
 ==============
 [pmix-1.2.0.tar.bz2](https://raw.githubusercontent.com/pmix/tarballs/master/pmix-1.2.0.tar.bz2)<br>
