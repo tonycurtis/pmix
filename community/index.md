@@ -15,6 +15,8 @@ The PMIx community has a number of contributors and participants, including (in 
 
 [IBM](https://www.ibm.com)
 
+[Innovative Computing Laboratory, Dept of Computer Science, University of Tennessee](http://icl.cs.utk.edu)
+
 [Intel](https://www.intel.com)
 
 [Lawrence Livermore National Laboratory](https://www.llnl.gov)
