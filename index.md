@@ -5,7 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 
-The Process Management Interface (PMI) has been used for quite some time as a means of exchanging wireup information needed for interprocess communication. Two versions (PMI-1 and PMI-2) have been released as part of the MPICH effort. While PMI-2 demonstrates better scaling properties than its PMI-1 predecessor, attaining rapid launch and wireup of the roughly 1M processes executing across 100k nodes expected for exascale operations remains challenging.
+<img align="left" src="images/PMIxSimple.png" width="48">The Process Management Interface (PMI) has been used for quite some time as a means of exchanging wireup information needed for interprocess communication. Two versions (PMI-1 and PMI-2) have been released as part of the MPICH effort. While PMI-2 demonstrates better scaling properties than its PMI-1 predecessor, attaining rapid launch and wireup of the roughly 1M processes executing across 100k nodes expected for exascale operations remains challenging.
 
 PMI Exascale (PMIx) represents an attempt to resolve these questions by providing an extended version of the PMI definitions specifically designed to support clusters up to and including exascale sizes. The overall objective of the project is not to branch the existing definitions - in fact, PMIx fully supports both of the existing PMI-1 and PMI-2 APIs - but rather to (a) augment and extend those APIs to eliminate some current restrictions that impact scalability, (b) establish a standards-like body for maintaining the definitions, and (c) provide a reference implementation of the PMIx standard that demonstrates the desired level of scalability.
 
@@ -31,6 +31,8 @@ Note that the definition of the PMIx standard is not contingent upon use of the 
 * Ease of adoption. The PMIx convenience library is designed to be particularly easy for resource managers (and the SMS in general) to adopt, thus facilitating a rapid uptake into that community for application portability. Both client and server libraries are included, along with reference examples of client usage and server-side integration. A list of supported environments and versions is provided [here](etc) - please check regularly as the list is changing!
 
 The convenience library targets support for the Linux operating system.  A reasonable effort is made to support all major, modern Linux distributions; however, validation is limited to the most recent 2-3 releases of RedHat Enterprise Linux (RHEL), Fedora, CentOS, and SUSE Linux Enterprise Server (SLES). In addition, development support is maintained for Mac OSX. Production support for vendor-specific operating systems is included as provided by the vendor.
+
+Participation in the PMIx community is open to anyone, and not restricted to only code contributors to the convenience library. Current community members are listed [here](community).
 
 Overview of PMIx
 =====================
@@ -67,6 +69,8 @@ How do I get involved?
   * [Man pages for current head of development](man)
 
  In addition, a [set of example applications](https://github.com/pmix/master/tree/master/examples) have been developed to highlight how an application might use various aspects of PMIx.
+
+1. Review the [wiki](https://github.com/pmix/master/wiki) for an explanation of the standard definitions and an overview of the convenience library
 
 1. Scan the [FAQs](faq).
 
