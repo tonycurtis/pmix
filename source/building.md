@@ -37,7 +37,7 @@ Autotools notes:
 Although it should probably be assumed, you'll also need a C/C++
 compiler.
 
-The [HACKING](https://github.com/pmix/master/blob/master/HACKING) file in the top-level directory of the PMIx checkout details how to install the tools listed above and the steps required to build a developer checkout of PMIx. It always contains the most current information on how to build a developer's copy of PMIx.
+The [HACKING](https://github.com/pmix/pmix/blob/master/HACKING) file in the top-level directory of the PMIx checkout details how to install the tools listed above and the steps required to build a developer checkout of PMIx. It always contains the most current information on how to build a developer's copy of PMIx.
 
 NOTE: by default, when configuring and building PMIx from a developer checkout, *all* debugging code is enabled. This results in a
 significant run-time performance penalty.  There are several options for building an optimzed Open MPI; see the HACKING

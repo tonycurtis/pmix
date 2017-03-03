@@ -23,7 +23,7 @@ tagline:
 
   Although it should probably be assumed, you'll also need a C compiler.
 
-  The [HACKING](https://github.com/pmix/master/blob/master/HACKING) file in the top-level directory of the PMIx checkout
+  The [HACKING](https://github.com/pmix/pmix/blob/master/HACKING) file in the top-level directory of the PMIx checkout
   details how to install the tools listed above and the steps required
   to build a developer checkout of PMIx.  It always contains the
   most current information on how to build a developer's copy of PMIx.

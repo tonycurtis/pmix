@@ -18,14 +18,14 @@ Be aware, however, that the head of the development code tree is
 hard to not commit things that are broken, but this is an active
 development tree -- bugs happen.  This is actually another major
 reason that this tree has been made available: peer review.  If you
-find any bugs, _please_ report them on the [issues](https://github.com/pmix/master/issues) list.
+find any bugs, _please_ report them on the [issues](https://github.com/pmix/pmix/issues) list.
 
 The Git "master" branch is the current development version of
 PMIx.  It is generally where new PMIx work is done.
 
 There are multiple ways to get access to Open MPI's source code:
 
-* [Clone the main PMIx repo at GitHub](https://github.com/pmix/master)</a>.  The main development work occurs on the "master" branch in this repo.
+* [Clone the main PMIx repo at GitHub](https://github.com/pmix/pmix)</a>.  The main development work occurs on the "master" branch in this repo.
 
     * Advantage: You'll easily be able to keep up with the latest source code using normal Git commands (e.g., '<code>git pull --rebase</code>').
     * Disadvantage: You need to have [several tools installed](source/building)to compile PMIx from a developer checkout.

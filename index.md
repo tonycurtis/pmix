@@ -64,13 +64,13 @@ The following publications (with accompanying citation info) may help provide so
 How do I get involved?
 =====================
 
-1. Read the documentation. The [header](https://github.com/pmix/master/tree/master/include) files contain the "official" definition of the standard, and the comments in them are intended to provide explanation and guidance. In addition, a set of man pages are being written to describe their implementation in the convenience library (not much is there just yet, but we are working on it):
+1. Read the documentation. The [header](https://github.com/pmix/pmix/tree/master/include) files contain the "official" definition of the standard, and the comments in them are intended to provide explanation and guidance. In addition, a set of man pages are being written to describe their implementation in the convenience library (not much is there just yet, but we are working on it):
 
   * [Man pages for current head of development](man)
 
- In addition, a [set of example applications](https://github.com/pmix/master/tree/master/examples) have been developed to highlight how an application might use various aspects of PMIx.
+ In addition, a [set of example applications](https://github.com/pmix/pmix/tree/master/examples) have been developed to highlight how an application might use various aspects of PMIx.
 
-1. Review the [wiki](https://github.com/pmix/master/wiki) for an explanation of the standard definitions and an overview of the convenience library
+1. Review the [wiki](https://github.com/pmix/pmix/wiki) for an explanation of the standard definitions and an overview of the convenience library
 
 1. Scan the [FAQs](faq).
 
@@ -80,12 +80,12 @@ How do I get involved?
     * [Production releases](downloads)
     * [Nightly](http://www.open-mpi.org/software/pmix/nightly/master/)
 
-  * The PMIx code base is being developed in [the PMIx GitHub repository](https://github.com/pmix/master).
+  * The PMIx code base is being developed in [the PMIx GitHub repository](https://github.com/pmix/pmix).
 
 1. Become part of the conversation
 
   * [Join the mailing list](https://groups.google.com/forum/#!forum/pmix). The list sees a fairly low rate of posting as most discussion occurs in Github "issues" and in the teleconferences. However, broad-ranging issues and announcement of releases are among the topics handled on the mailing list.
 
-  * [Follow the repositories](https:://github.com/pmix). Pull requests and issues are heavily used to discuss proposed changes in both [implementation](https://github.com/pmix/master) and the [standard](https://github.com/pmix/RFCs). 
+  * [Follow the repositories](https:://github.com/pmix). Pull requests and issues are heavily used to discuss proposed changes in both [implementation](https://github.com/pmix/pmix) and the [standard](https://github.com/pmix/RFCs). 
 
-  * Participate in the [teleconferences](https://github.com/pmix/master/wiki/4-Meetings). PMIx developers meet every Tues and Thurs to discuss the project, review and approve pending RFCs, and talk about their ongoing efforts. Anyone can join the calls to listen and participate in the design of PMIx.
+  * Participate in the [teleconferences](https://github.com/pmix/pmix/wiki/4-Meetings). PMIx developers meet every Tues and Thurs to discuss the project, review and approve pending RFCs, and talk about their ongoing efforts. Anyone can join the calls to listen and participate in the design of PMIx.

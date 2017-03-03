@@ -58,7 +58,7 @@ The PMIx community would prefer to be covered via some standards process as a me
 
 * All modifications and additions to the PMIx standard must be formally proposed as a Request For Comment (RFC). These are put forward in the form of a Github Pull Request (PR) against the [PMIx RFC repository](https://github.com/pmix/RFCs) using the provided [RFC template](https://github.com/pmix/RFCs/blob/master/Template.md).
 
-* The proposed modification or addition must include a prototype implementation against the PMIx convenience library's [master repository](https://github.com/pmix/master). This ensures that the change has been subjected to some degree of functional validation, and gives reviewers an example of how it might be implemented.
+* The proposed modification or addition must include a prototype implementation against the PMIx convenience library's [master repository](https://github.com/pmix/pmix). This ensures that the change has been subjected to some degree of functional validation, and gives reviewers an example of how it might be implemented.
 
 * An email is sent to the PMIx developer's mailing list alerting members to the RFC and prototype implementation. This includes links to the RFC and the accompanying pull request, along with a very brief statement of the RFC's purpose (e.g., a copy of the abstract section). Both the email and the PR shall include a proposed timetable within which the author(s) would like to have the RFC reviewed. This is not intended to form a hard deadline, but rather to inform the community as to the anticipated pace of the proposal.
 
