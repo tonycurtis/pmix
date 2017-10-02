@@ -39,6 +39,9 @@ Overview of PMIx
 
 The following publications (with accompanying citation info) may help provide some background on PMIx and a perspective on its role in future HPC resource management:
 
+* PMIx: Process Management for Exascale Environments [[pdf]](https://github.com/pmix/publications/blob/master/EuroMPI-2017-Presentation.pdf) [[ppt]](https://github.com/pmix/publications/blob/master/EuroMPI-2017-Presentation.pptx)
+    * **PMIx: Process Management for Exascale Environments** Ralph H Castain, David G. Solt, Joshua Hursey, and Aurelien Bouteiller. Proceedings of the 24th European MPI Users' Group Meeting (EuroMPI/USA 2017), Chicago IL, USA, Sept 24-28, 2017, 14:1--14:10.
+
 * PMIx: Storage Integration [[pdf]](https://github.com/pmix/publications/blob/master/PMIx-TieredStorage.pdf) [[ppt]](https://github.com/pmix/publications/blob/master/PMIx-TieredStorage.pptx)
     * **PMIx: Storage Integration** Ralph H Castain. Presented at _DOE Tiered Storage Working Group meeting_, Feb 2017.
 
